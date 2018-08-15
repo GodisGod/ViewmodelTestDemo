@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="none"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_send_set"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="set data" />
+
+    <Button
+        android:id="@+id/btn_send_post"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="post data" />
+
+    <Button
+        android:id="@+id/btn_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接受数据" />
+
+    <CheckBox
+        android:id="@+id/et_open_work_thread"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="子线程发送数据" />
+
+</LinearLayout>

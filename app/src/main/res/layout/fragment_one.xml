@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50af"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="第一个fragment"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:text="我是fragment one的值" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="传递数据" />
+
+</LinearLayout>
